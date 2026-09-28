@@ -40,15 +40,15 @@ double_variants_frontrear = true
 # ############### Barcoded ITS primer ("barcode of life") barcoding kit ###############
 
 [arrangement]
-name = "barcode_arrs_ITS"
+name = "barcode_arrs_RPS"
 id_pattern = "RAB%02i"
-compatible_kits = ["SQK-ITS024"]
+compatible_kits = ["SQK-RPS024"]
 first_index = 1
 last_index = 24
 kit = "ITS"
 normalised_id_pattern = "barcode%02i"
 scoring_function = "MAX"
-mask1 = "ITS_1st"
-mask2 = "ITS_2nd"
+mask1 = "RPS_1st"
+mask2 = "RPS_2nd"
 barcode1_pattern = "NB%02i"
 barcode2_pattern = "NB%02i"
